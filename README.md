@@ -47,7 +47,7 @@ Le dataset contient des informations sur les réservations :
 
 - Les **6 features les plus importantes** selon SHAP :  
   1. `Payment Method`  
-  2. `Booking Day`  
+  2. `Rides incomplètes (Incomplete Rides)`  
   3. `Ride Distance`  
   4. `Booking Value`  
   5. `avg ctat` (Customer Rating)  
@@ -71,7 +71,7 @@ Le dataset contient des informations sur les réservations :
 ## Recommandations business
 
 1. **Optimiser la méthode de paiement** pour réduire les annulations.  
-2. **Planifier les chauffeurs selon les jours à forte annulation.**  
+2. **Réduire les courses incomplètes avec des pénalités douces ou des récompenses de fidélité..**  
 3. **Surveiller les trajets longs ou coûteux** pour anticiper les risques.  
 4. **Suivi des notes clients et chauffeurs** pour améliorer la fiabilité des courses.  
 5. **Mise à jour régulière du modèle** avec les nouvelles données pour maintenir sa performance.
